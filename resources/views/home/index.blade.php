@@ -4,10 +4,9 @@
 <section class="relative min-h-[110vh] w-full flex items-center justify-start bg-black overflow-hidden">
     <!-- Background Image -->
     <div class="absolute inset-0 z-0">
-        <!-- Assuming the soap on glass image is 'final_image_2.jpg', we'll use a local fallback path -->
-        <img src="{{ asset('image.png') }}" 
+        <img src="{{ asset('hero.jpg') }}" 
              class="w-full h-full object-cover object-center opacity-80" 
-             alt="Soap on wet glass"
+             alt="MudAura Hero Background"
              onerror="this.src='https://images.unsplash.com/photo-1600857062241-98e5dba7f214?q=80&w=2578&auto=format&fit=crop'">
         <!-- Dark overlay to ensure text is readable -->
         <div class="absolute inset-0 bg-black/40"></div>
@@ -17,7 +16,7 @@
     <div class="relative z-10 container mx-auto px-6 md:px-12 pt-20">
         <div class="max-w-3xl">
             <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 uppercase leading-[1.1] font-oswald tracking-wide drop-shadow-lg">
-                Crafting Radiance <br> Naturally.
+                Redefining Tradition <br> Elegantly.
             </h1>
             <a href="#" class="inline-flex items-center text-white text-xs md:text-sm uppercase tracking-widest font-semibold hover:text-gray-300 transition group mt-2">
                 Shop all 
@@ -32,9 +31,9 @@
     <div class="container mx-auto px-6 md:px-12">
         <!-- Section Header -->
         <div class="mb-10">
-            <p class="text-sm text-gray-700 mb-1">Made to transform</p>
+            <p class="text-sm text-gray-700 mb-1">Made to express</p>
             <h2 class="text-4xl md:text-5xl font-bold font-oswald uppercase tracking-wide">
-                Skin, Hair and Body
+                Kurtas, Sherwanis and Jackets
             </h2>
         </div>
 
@@ -42,7 +41,7 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             
             <!-- Product 1 -->
-            <div class="group relative flex flex-col group/card cursor-pointer">
+            <a href="/product" class="group relative flex flex-col group/card cursor-pointer block">
                 <!-- Image Container -->
                 <div class="relative w-full aspect-[4/5] bg-gray-50 overflow-hidden rounded-md mb-4 flex items-center justify-center">
                     <!-- Badges -->
@@ -51,12 +50,12 @@
                     </div>
                     
                     <!-- Images -->
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/Soap_bar_listing_image-10.png') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10 p-4" alt="Multani Mitti Soaps">
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/1_lower.png') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0 p-4" alt="Multani Mitti Soaps Hover">
+                    <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10" alt="Embroidered Silk Kurta">
+                    <img src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0" alt="Embroidered Silk Kurta Hover">
 
                     <!-- Floating Bag Icon -->
-                    <div class="absolute bottom-3 right-3 z-20 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
-                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100">
+                    <div class="absolute bottom-3 right-3 z-30 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
+                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100 pointer-events-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
                         </button>
                     </div>
@@ -64,16 +63,16 @@
                 
                 <!-- Product Info -->
                 <div class="text-center">
-                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium">Multani Mitti Soaps (pack of 3)</h3>
+                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium group-hover:underline">Embroidered Silk Kurta</h3>
                     <div class="text-[13px]">
                         <span class="font-bold mr-1">RS. 479.00</span>
                         <span class="text-gray-500 line-through">RS. 599.00</span>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- Product 2 -->
-            <div class="group relative flex flex-col group/card cursor-pointer">
+            <a href="/product2" class="group relative flex flex-col group/card cursor-pointer block">
                 <!-- Image Container -->
                 <div class="relative w-full aspect-[4/5] bg-gray-50 overflow-hidden rounded-md mb-4 flex items-center justify-center">
                     <!-- Badges -->
@@ -82,12 +81,12 @@
                     </div>
                     
                     <!-- Images -->
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/try2.png') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10 p-4" alt="Radiant Roots Hair Oil">
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/2.png') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0 p-4" alt="Radiant Roots Hair Oil Hover">
+                    <img src="{{ asset('assets/products/2cf2091b6b0a327c61d924aba4422361.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10" alt="Classic Cotton Pathani Suit">
+                    <img src="{{ asset('assets/products/4b023aab378b4d93467f6e030b209f70.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0" alt="Classic Cotton Pathani Suit Hover">
 
                     <!-- Floating Bag Icon -->
-                    <div class="absolute bottom-3 right-3 z-20 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
-                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100">
+                    <div class="absolute bottom-3 right-3 z-30 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
+                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100 pointer-events-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
                         </button>
                     </div>
@@ -95,16 +94,16 @@
                 
                 <!-- Product Info -->
                 <div class="text-center">
-                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium">Radiant Roots Hair Oil</h3>
+                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium group-hover:underline">Classic Cotton Pathani Suit</h3>
                     <div class="text-[13px]">
                         <span class="font-bold mr-1">RS. 399.00</span>
                         <span class="text-gray-500 line-through">RS. 460.00</span>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- Product 3 -->
-            <div class="group relative flex flex-col group/card cursor-pointer">
+            <a href="/product3" class="group relative flex flex-col group/card cursor-pointer block">
                 <!-- Image Container -->
                 <div class="relative w-full aspect-[4/5] bg-gray-50 overflow-hidden rounded-md mb-4 flex items-center justify-center">
                     <!-- Badges -->
@@ -113,12 +112,12 @@
                     </div>
                     
                     <!-- Images -->
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/tootg.jpg') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10 p-4" alt="Charcoal and Herbal Toothpowder">
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/5.png') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0 p-4" alt="Charcoal and Herbal Toothpowder Hover">
+                    <img src="{{ asset('assets/products/84f7d7c500671af9117168db9a995448.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10" alt="Premium Jacquard Sherwani">
+                    <img src="{{ asset('assets/products/8a2bff56c967d7da30a50efef2347793.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0" alt="Premium Jacquard Sherwani Hover">
 
                     <!-- Floating Bag Icon -->
-                    <div class="absolute bottom-3 right-3 z-20 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
-                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100">
+                    <div class="absolute bottom-3 right-3 z-30 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
+                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100 pointer-events-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
                         </button>
                     </div>
@@ -126,16 +125,16 @@
                 
                 <!-- Product Info -->
                 <div class="text-center">
-                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium">Charcoal and Herbal Toothpowder</h3>
+                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium group-hover:underline">Premium Jacquard Sherwani</h3>
                     <div class="text-[13px]">
                         <span class="font-bold mr-1">RS. 399.00</span>
                         <span class="text-gray-500 line-through">RS. 479.00</span>
                     </div>
                 </div>
-            </div>
+            </a>
 
             <!-- Product 4 -->
-            <div class="group relative flex flex-col group/card cursor-pointer">
+            <a href="/product" class="group relative flex flex-col group/card cursor-pointer block">
                 <!-- Image Container -->
                 <div class="relative w-full aspect-[4/5] bg-gray-50 overflow-hidden rounded-md mb-4 flex items-center justify-center">
                     <!-- Badges -->
@@ -144,12 +143,12 @@
                     </div>
                     
                     <!-- Images -->
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/slide_1_re.png') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10 p-4" alt="Amla and Bhringraj Shampoo">
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/6.png') }}" class="absolute inset-0 w-full h-full object-contain transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0 p-4" alt="Amla and Bhringraj Shampoo Hover">
+                    <img src="{{ asset('assets/products/9493e6f4de86ab31a597f0161766857d.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-100 group-hover/card:opacity-0 z-10" alt="Handwoven Linen Nehru Jacket">
+                    <img src="{{ asset('assets/products/ad9318da853cddee6d486b0ccc51b8d9.jpg') }}" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ease-in-out opacity-0 group-hover/card:opacity-100 z-0" alt="Handwoven Linen Nehru Jacket Hover">
 
                     <!-- Floating Bag Icon -->
-                    <div class="absolute bottom-3 right-3 z-20 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
-                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100">
+                    <div class="absolute bottom-3 right-3 z-30 translate-y-2 opacity-0 group-hover/card:translate-y-0 group-hover/card:opacity-100 transition-all duration-300">
+                        <button class="bg-white text-black p-2 rounded-full shadow-md hover:bg-gray-100 pointer-events-auto">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
                         </button>
                     </div>
@@ -157,13 +156,13 @@
                 
                 <!-- Product Info -->
                 <div class="text-center">
-                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium">Amla and Bhringraj Shampoo</h3>
+                    <h3 class="text-[13px] md:text-[14px] text-gray-800 mb-1 font-medium group-hover:underline">Handwoven Linen Nehru Jacket</h3>
                     <div class="text-[13px]">
                         <span class="font-bold mr-1">RS. 395.00</span>
                         <span class="text-gray-500 line-through">RS. 499.00</span>
                     </div>
                 </div>
-            </div>
+            </a>
 
         </div>
     </div>
@@ -173,10 +172,10 @@
 <section class="py-16 bg-white text-black overflow-hidden">
     <div class="container mx-auto px-6 md:px-12 text-center mb-10">
         <h2 class="text-4xl md:text-5xl font-bold font-oswald uppercase tracking-wide mb-2">
-            Everyday Rituals
+            Style In Motion
         </h2>
         <p class="text-sm md:text-base text-gray-700">
-            Discover Our Latest Video Content
+            Explore Our Latest Collection Lookbooks
         </p>
     </div>
 
@@ -190,52 +189,60 @@
                 <div class="relative w-[75vw] sm:w-[45vw] md:w-auto flex-shrink-0 snap-center aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-gray-100 cursor-pointer" onclick="this.querySelector('video').paused ? this.querySelector('video').play() : this.querySelector('video').pause()">
                     <video 
                         class="absolute inset-0 w-full h-full object-cover z-0" 
-                        preload="none"
-                        poster="https://images.unsplash.com/photo-1596755389378-c31d21fd1273?q=80&w=600&auto=format&fit=crop"
+                        preload="metadata"
                         autoplay loop muted playsinline
                     >
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <source src="{{ asset('assets/videos/0491eb56-c241-4d92-b015-f2aca854ddeb.mp4') }}" type="video/mp4">
                     </video>
-                    <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-md text-white text-xs font-medium px-2 py-1 rounded-md z-20 pointer-events-none">00:21</div>
+                    <div class="absolute inset-0 bg-black/10 pointer-events-none"></div>
+                    <div class="absolute bottom-3 left-3 right-3 z-20 pointer-events-none">
+                        <p class="text-white text-xs font-semibold uppercase tracking-widest drop-shadow">New Arrivals</p>
+                    </div>
                 </div>
 
                 <!-- Video 2 -->
                 <div class="relative w-[75vw] sm:w-[45vw] md:w-auto flex-shrink-0 snap-center aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-gray-100 cursor-pointer" onclick="this.querySelector('video').paused ? this.querySelector('video').play() : this.querySelector('video').pause()">
                     <video 
                         class="absolute inset-0 w-full h-full object-cover z-0" 
-                        preload="none"
-                        poster="https://images.unsplash.com/photo-1615397323226-5b3064d1fcd8?q=80&w=600&auto=format&fit=crop"
+                        preload="metadata"
                         autoplay loop muted playsinline
                     >
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <source src="{{ asset('assets/videos/3bda2126-6388-482d-8112-ea8690e62fd6.mp4') }}" type="video/mp4">
                     </video>
-                    <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-md text-white text-xs font-medium px-2 py-1 rounded-md z-20 pointer-events-none">00:42</div>
+                    <div class="absolute inset-0 bg-black/10 pointer-events-none"></div>
+                    <div class="absolute bottom-3 left-3 right-3 z-20 pointer-events-none">
+                        <p class="text-white text-xs font-semibold uppercase tracking-widest drop-shadow">Kurta Edit</p>
+                    </div>
                 </div>
 
                 <!-- Video 3 -->
                 <div class="relative w-[75vw] sm:w-[45vw] md:w-auto flex-shrink-0 snap-center aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-gray-100 cursor-pointer" onclick="this.querySelector('video').paused ? this.querySelector('video').play() : this.querySelector('video').pause()">
                     <video 
                         class="absolute inset-0 w-full h-full object-cover z-0" 
-                        preload="none"
-                        poster="https://images.unsplash.com/photo-1542037104857-ffbb0b9155fb?q=80&w=600&auto=format&fit=crop"
+                        preload="metadata"
                         autoplay loop muted playsinline
                     >
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <source src="{{ asset('assets/videos/bc0992d6-4bb0-4156-a36b-6aa25c024a11.mp4') }}" type="video/mp4">
                     </video>
-                    <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-md text-white text-xs font-medium px-2 py-1 rounded-md z-20 pointer-events-none">00:47</div>
+                    <div class="absolute inset-0 bg-black/10 pointer-events-none"></div>
+                    <div class="absolute bottom-3 left-3 right-3 z-20 pointer-events-none">
+                        <p class="text-white text-xs font-semibold uppercase tracking-widest drop-shadow">Sherwani Season</p>
+                    </div>
                 </div>
 
                 <!-- Video 4 -->
                 <div class="relative w-[75vw] sm:w-[45vw] md:w-auto flex-shrink-0 snap-center aspect-[9/16] rounded-2xl overflow-hidden shadow-lg bg-gray-100 cursor-pointer" onclick="this.querySelector('video').paused ? this.querySelector('video').play() : this.querySelector('video').pause()">
                     <video 
                         class="absolute inset-0 w-full h-full object-cover z-0" 
-                        preload="none"
-                        poster="https://images.unsplash.com/photo-1620916297397-a4a5402a3c6c?q=80&w=600&auto=format&fit=crop"
+                        preload="metadata"
                         autoplay loop muted playsinline
                     >
-                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        <source src="{{ asset('assets/videos/ecddff0e-8b5c-46bd-9425-919260d80c08.mp4') }}" type="video/mp4">
                     </video>
-                    <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-md text-white text-xs font-medium px-2 py-1 rounded-md z-20 pointer-events-none">00:54</div>
+                    <div class="absolute inset-0 bg-black/10 pointer-events-none"></div>
+                    <div class="absolute bottom-3 left-3 right-3 z-20 pointer-events-none">
+                        <p class="text-white text-xs font-semibold uppercase tracking-widest drop-shadow">Festival Looks</p>
+                    </div>
                 </div>
 
             </div>
@@ -285,10 +292,10 @@
         <div class="bg-[#f4f4f4] rounded-2xl px-10 py-12 text-center max-w-xl w-full">
             <p class="text-xs uppercase tracking-[0.2em] text-gray-500 font-medium mb-3">Limited Offer</p>
             <h2 class="text-3xl md:text-4xl font-bold font-oswald uppercase tracking-wide text-[#1c1d1f] mb-3">
-                Build Your Own Combo
+                Build Your Own Outfit
             </h2>
             <p class="text-gray-600 text-base mb-8">
-                Buy any 3 Products at just ₹999
+                Mix & match any 3 pieces at just ₹999
             </p>
             <a href="#" class="inline-block bg-[#1c1d1f] text-white font-oswald font-bold uppercase px-10 py-4 text-sm tracking-widest hover:bg-black transition-colors duration-300">
                 Build Now
@@ -301,22 +308,22 @@
 <section class="py-16 bg-white text-black">
     <div class="container mx-auto px-6 md:px-12 text-center">
         <!-- Header -->
-        <h2 class="text-4xl md:text-5xl font-bold font-oswald uppercase tracking-wide mb-2">
-            THE BEST SELLER
-        </h2>
-        <p class="text-sm md:text-base text-gray-700 mb-10">
-            Handcrafted with purity your skin truly deserves.
+        <p class="text-sm md:text-base text-gray-700 mb-1">
+            Our Core
         </p>
+        <h2 class="text-4xl md:text-5xl font-bold font-oswald uppercase tracking-wide mb-10">
+            Products
+        </h2>
 
         <!-- Slider Container -->
         <div class="relative max-w-5xl mx-auto overflow-hidden shadow-2xl rounded-sm select-none bg-gray-100" id="comparison-slider">
             <div class="relative w-full aspect-[4/3] md:aspect-[16/9]">
                 <!-- Image Two (Right side / Background / After) -->
-                <img src="{{ asset('assets/mudaura.com/cdn/shop/files/Soap_bar_listing_image-10.png') }}" onerror="this.src='https://images.unsplash.com/photo-1611078502396-981881518f8e?q=80&w=1200&auto=format&fit=crop'" class="absolute inset-0 w-full h-full object-cover pointer-events-none" alt="After">
+                <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" onerror="this.src='https://images.unsplash.com/photo-1611078502396-981881518f8e?q=80&w=1200&auto=format&fit=crop'" class="absolute inset-0 w-full h-full object-cover pointer-events-none" alt="After">
                 
                 <!-- Image One (Left side / Clipped / Before) -->
                 <div class="absolute inset-y-0 left-0 w-1/2 overflow-hidden pointer-events-none" id="slider-overlay">
-                    <img src="{{ asset('assets/mudaura.com/cdn/shop/files/1_lower.png') }}" onerror="this.src='https://images.unsplash.com/photo-1611078502396-981881518f8e?q=80&w=1200&auto=format&fit=crop&sat=-100'" class="absolute inset-y-0 left-0 h-full object-cover" id="before-img" alt="Before">
+                    <img src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872.jpg') }}" onerror="this.src='https://images.unsplash.com/photo-1611078502396-981881518f8e?q=80&w=1200&auto=format&fit=crop&sat=-100'" class="absolute inset-y-0 left-0 h-full object-cover" id="before-img" alt="Before">
                 </div>
 
                 <!-- Handle Line -->
@@ -347,8 +354,7 @@
 <!-- Marquee Section -->
 <style>
   .marquee-container {
-    width: 100vw;
-    margin-left: calc(-50vw + 50%);
+    width: 100%;
     overflow: hidden;
     background-color: #ffffff;
     padding: 30px 0;
@@ -436,32 +442,32 @@
   <div class="marquee-track">
     <!-- Set 1 -->
     <div class="marquee-item">
-      <h2 class="marquee-text">The Collection</h2>
-      <img src="//mudaura.com/cdn/shop/files/pexels-kseniya-buraya-124360874-9991820.jpg?height=80&v=1733328348" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/b3e594ad1c203f6dfdce2fd3f1be84bd.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Shop Now</h3>
         <a href="#" class="marquee-button">View Collection</a>
       </div>
     </div>
     <div class="marquee-item">
-      <h2 class="marquee-text">Best Sellers</h2>
-      <img src="//mudaura.com/cdn/shop/files/slider_1.png?height=80&v=1737633051" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/e00ddbab55b8305fe9bff814717c8cdb.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Trending</h3>
         <a href="#" class="marquee-button">Shop Best Sellers</a>
       </div>
     </div>
     <div class="marquee-item">
-      <h2 class="marquee-text">Sale Items</h2>
-      <img src="//mudaura.com/cdn/shop/files/slide_2_9db147d6-d6e8-4a2a-b402-2603ef6eb558.png?height=80&v=1737634298" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/e8b53858921a1ec2d934f48c6befe20a.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Save Big</h3>
         <a href="#" class="marquee-button">Shop Sale</a>
       </div>
     </div>
     <div class="marquee-item">
-      <h2 class="marquee-text">Limited Edition</h2>
-      <img src="//mudaura.com/cdn/shop/files/Untitled_design_20250112_123723_0000.png?height=80&v=1736666660" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Exclusive</h3>
         <a href="#" class="marquee-button">Get Yours</a>
@@ -470,32 +476,32 @@
     
     <!-- Set 2 (Duplicate for seamless loop) -->
     <div class="marquee-item">
-      <h2 class="marquee-text">The Collection</h2>
-      <img src="//mudaura.com/cdn/shop/files/pexels-kseniya-buraya-124360874-9991820.jpg?height=80&v=1733328348" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/b3e594ad1c203f6dfdce2fd3f1be84bd.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Shop Now</h3>
         <a href="#" class="marquee-button">View Collection</a>
       </div>
     </div>
     <div class="marquee-item">
-      <h2 class="marquee-text">Best Sellers</h2>
-      <img src="//mudaura.com/cdn/shop/files/slider_1.png?height=80&v=1737633051" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/e00ddbab55b8305fe9bff814717c8cdb.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Trending</h3>
         <a href="#" class="marquee-button">Shop Best Sellers</a>
       </div>
     </div>
     <div class="marquee-item">
-      <h2 class="marquee-text">Sale Items</h2>
-      <img src="//mudaura.com/cdn/shop/files/slide_2_9db147d6-d6e8-4a2a-b402-2603ef6eb558.png?height=80&v=1737634298" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/e8b53858921a1ec2d934f48c6befe20a.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Save Big</h3>
         <a href="#" class="marquee-button">Shop Sale</a>
       </div>
     </div>
     <div class="marquee-item">
-      <h2 class="marquee-text">Limited Edition</h2>
-      <img src="//mudaura.com/cdn/shop/files/Untitled_design_20250112_123723_0000.png?height=80&v=1736666660" alt="" class="marquee-image" loading="lazy" height="80">
+      <h2 class="marquee-text">Feel the essence</h2>
+      <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" alt="" class="marquee-image" loading="lazy" height="80">
       <div class="marquee-content-group">
         <h3 class="marquee-heading">Exclusive</h3>
         <a href="#" class="marquee-button">Get Yours</a>
@@ -702,7 +708,7 @@
             <svg class="testimonial-star testimonial-star-filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon></svg>
             <svg class="testimonial-star testimonial-star-filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon></svg>
           </div>
-          <blockquote class="testimonial-quote">This product completely exceeded my expectations. The quality is outstanding and the customer service is top-notch!</blockquote>
+          <blockquote class="testimonial-quote">The kurta I ordered arrived beautifully stitched. The fabric quality is outstanding — exactly what you'd expect from a premium ethnic wear brand!</blockquote>
           <div class="testimonial-position">Verified Customer</div>
         </div>
         
@@ -715,7 +721,7 @@
             <svg class="testimonial-star testimonial-star-filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon></svg>
             <svg class="testimonial-star testimonial-star-filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon></svg>
           </div>
-          <blockquote class="testimonial-quote">I've been using this for months now and it's become an essential part of my daily routine. Highly recommend!</blockquote>
+          <blockquote class="testimonial-quote">The Pathani suit fits perfectly and the cotton is so breathable. I've worn it to multiple occasions and always get compliments. Highly recommend!</blockquote>
           <div class="testimonial-position">Regular Customer</div>
         </div>
 
@@ -728,7 +734,7 @@
             <svg class="testimonial-star testimonial-star-filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon></svg>
             <svg class="testimonial-star testimonial-star-filled" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="1"><polygon points="12,2 15.09,8.26 22,9.27 17,14.14 18.18,21.02 12,17.77 5.82,21.02 7,14.14 2,9.27 8.91,8.26"></polygon></svg>
           </div>
-          <blockquote class="testimonial-quote">Fast shipping, great packaging, and the product works exactly as described. Will definitely order again!</blockquote>
+          <blockquote class="testimonial-quote">Fast delivery, premium packaging, and the sherwani looks absolutely regal. The embroidery is detailed and the sizing is spot on. Will definitely order again!</blockquote>
           <div class="testimonial-position">Happy Customer</div>
         </div>
       </div>
@@ -835,10 +841,10 @@
             <!-- Product 1 -->
             <div class="bg-[#f4f4f4] group flex flex-col h-full">
                 <div class="product-image-slider relative aspect-square bg-[#f0f0f0] mb-4 overflow-hidden group/slider" 
-                     data-images='["//mudaura.com/cdn/shop/files/1_lower.png?v=1737634298&width=500", "//mudaura.com/cdn/shop/files/final_image_2.jpg?v=1760441873&width=500", "//mudaura.com/cdn/shop/files/Soap_bar_listing_image-10.png?v=1760441873&width=500", "//mudaura.com/cdn/shop/files/last.png?v=1760441873&width=500"]'>
+                     data-images='["{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}", "{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872.jpg') }}"]'>
                     <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded-full z-10 pointer-events-none">Sale</span>
                     <a href="#" class="block w-full h-full relative">
-                        <img src="//mudaura.com/cdn/shop/files/1_lower.png?v=1737634298&width=500" alt="Multani Mitti Soaps" class="slider-img w-full h-full object-cover transition-opacity duration-300">
+                        <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" alt="Embroidered Silk Kurta" class="slider-img w-full h-full object-cover transition-opacity duration-300">
                     </a>
                     <button class="slider-prev absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1 rounded-full shadow-md opacity-0 group-hover/slider:opacity-100 transition-opacity z-20">
                         <svg class="w-4 h-4 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -851,7 +857,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col flex-grow">
-                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Multani Mitti Soaps (pack of 3)</a>
+                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Embroidered Silk Kurta</a>
                     <div class="flex items-center gap-2 mt-auto pb-4">
                         <span class="text-gray-900 font-medium">Rs. 479.00</span>
                         <span class="text-gray-500 line-through text-sm">Rs. 599.00</span>
@@ -862,10 +868,10 @@
             <!-- Product 2 -->
             <div class="bg-[#f4f4f4] group flex flex-col h-full">
                 <div class="product-image-slider relative aspect-square bg-[#f0f0f0] mb-4 overflow-hidden group/slider" 
-                     data-images='["//mudaura.com/cdn/shop/files/6.png?v=1736666187&width=500", "//mudaura.com/cdn/shop/files/try2.png?v=1736698907&width=500", "//mudaura.com/cdn/shop/files/slide_2_b.png?v=1736698907&width=500", "//mudaura.com/cdn/shop/files/slide_3.png?v=1736698894&width=500"]'>
+                     data-images='["{{ asset('assets/products/2cf2091b6b0a327c61d924aba4422361.jpg') }}", "{{ asset('assets/products/4b023aab378b4d93467f6e030b209f70.jpg') }}"]'>
                     <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded-full z-10 pointer-events-none">Sale</span>
                     <a href="#" class="block w-full h-full relative">
-                        <img src="//mudaura.com/cdn/shop/files/6.png?v=1736666187&width=500" alt="Radiant Roots Hair Oil" class="slider-img w-full h-full object-cover transition-opacity duration-300">
+                        <img src="{{ asset('assets/products/2cf2091b6b0a327c61d924aba4422361.jpg') }}" alt="Classic Cotton Pathani Suit" class="slider-img w-full h-full object-cover transition-opacity duration-300">
                     </a>
                     <button class="slider-prev absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1 rounded-full shadow-md opacity-0 group-hover/slider:opacity-100 transition-opacity z-20">
                         <svg class="w-4 h-4 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -878,7 +884,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col flex-grow">
-                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Radiant Roots Hair Oil</a>
+                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Classic Cotton Pathani Suit</a>
                     <div class="flex items-center gap-2 mt-auto pb-4">
                         <span class="text-gray-900 font-medium">Rs. 399.00</span>
                         <span class="text-gray-500 line-through text-sm">Rs. 460.00</span>
@@ -889,10 +895,10 @@
             <!-- Product 3 -->
             <div class="bg-[#f4f4f4] group flex flex-col h-full">
                 <div class="product-image-slider relative aspect-square bg-[#f0f0f0] mb-4 overflow-hidden group/slider" 
-                     data-images='["//mudaura.com/cdn/shop/files/5.png?v=1736666226&width=500", "//mudaura.com/cdn/shop/files/slide_1_b.png?v=1736709080&width=500", "//mudaura.com/cdn/shop/files/sli.png?v=1736765186&width=500"]'>
+                     data-images='["{{ asset('assets/products/84f7d7c500671af9117168db9a995448.jpg') }}", "{{ asset('assets/products/8a2bff56c967d7da30a50efef2347793.jpg') }}"]'>
                     <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded-full z-10 pointer-events-none">Sale</span>
                     <a href="#" class="block w-full h-full relative">
-                        <img src="//mudaura.com/cdn/shop/files/5.png?v=1736666226&width=500" alt="Charcoal and Herbal Toothpowder" class="slider-img w-full h-full object-cover transition-opacity duration-300">
+                        <img src="{{ asset('assets/products/84f7d7c500671af9117168db9a995448.jpg') }}" alt="Premium Jacquard Sherwani" class="slider-img w-full h-full object-cover transition-opacity duration-300">
                     </a>
                     <button class="slider-prev absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1 rounded-full shadow-md opacity-0 group-hover/slider:opacity-100 transition-opacity z-20">
                         <svg class="w-4 h-4 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -905,7 +911,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col flex-grow">
-                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Charcoal and Herbal Toothpowder</a>
+                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Premium Jacquard Sherwani</a>
                     <div class="flex items-center gap-2 mt-auto pb-4">
                         <span class="text-gray-900 font-medium">Rs. 399.00</span>
                         <span class="text-gray-500 line-through text-sm">Rs. 479.00</span>
@@ -916,10 +922,10 @@
             <!-- Product 4 -->
             <div class="bg-[#f4f4f4] group flex flex-col h-full">
                 <div class="product-image-slider relative aspect-square bg-[#f0f0f0] mb-4 overflow-hidden group/slider" 
-                     data-images='["//mudaura.com/cdn/shop/files/4.png?v=1736666166&width=500", "//mudaura.com/cdn/shop/files/1_lower.png?v=1737634298&width=500"]'>
+                     data-images='["{{ asset('assets/products/9493e6f4de86ab31a597f0161766857d.jpg') }}", "{{ asset('assets/products/ad9318da853cddee6d486b0ccc51b8d9.jpg') }}"]'>
                     <span class="absolute top-2 left-2 bg-gray-800 text-white text-xs px-2 py-1 rounded-full z-10 pointer-events-none">Sale</span>
                     <a href="#" class="block w-full h-full relative">
-                        <img src="//mudaura.com/cdn/shop/files/4.png?v=1736666166&width=500" alt="Amla and Bhringraj Shampoo" class="slider-img w-full h-full object-cover transition-opacity duration-300">
+                        <img src="{{ asset('assets/products/9493e6f4de86ab31a597f0161766857d.jpg') }}" alt="Handwoven Linen Nehru Jacket" class="slider-img w-full h-full object-cover transition-opacity duration-300">
                     </a>
                     <button class="slider-prev absolute left-2 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-1 rounded-full shadow-md opacity-0 group-hover/slider:opacity-100 transition-opacity z-20">
                         <svg class="w-4 h-4 text-gray-800" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg>
@@ -932,7 +938,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col flex-grow">
-                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Amla and Bhringraj Shampoo</a>
+                    <a href="#" class="text-gray-900 font-['Oswald'] uppercase font-medium hover:underline mb-2">Handwoven Linen Nehru Jacket</a>
                     <div class="flex items-center gap-2 mt-auto pb-4">
                         <span class="text-gray-900 font-medium">Rs. 395.00</span>
                         <span class="text-gray-500 line-through text-sm">Rs. 499.00</span>
@@ -1019,19 +1025,19 @@ document.addEventListener('DOMContentLoaded', function() {
     </div>
 </section>
 
-<!-- Mudaura Chronicles Section -->
+<!-- Ethnic Wear Chronicles Section -->
 <section class="py-16 bg-white">
     <div class="container mx-auto px-6 md:px-12 max-w-6xl">
-        <h2 class="text-3xl md:text-4xl font-bold font-['Oswald'] uppercase text-[#1c1c1c] text-center mb-12 tracking-wide">Mudaura Chronicles</h2>
+        <h2 class="text-3xl md:text-4xl font-bold font-['Oswald'] uppercase text-[#1c1c1c] text-center mb-12 tracking-wide">Ethnic Wear Chronicles</h2>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <!-- Article 1 (Featured Style) -->
             <a href="#" class="group relative block w-full h-[450px] overflow-hidden">
-                <img src="//mudaura.com/cdn/shop/files/1_lower.png?v=1737634298&width=800" alt="Are Multani Mitti Soaps Better Than Regular Soaps?" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                <img src="{{ asset('assets/products/84f7d7c500671af9117168db9a995448.jpg') }}" alt="The History Behind the Classic Sherwani" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent"></div>
                 <div class="absolute bottom-0 left-0 p-8 w-full flex flex-col justify-end h-full">
                     <p class="text-white/80 text-xs tracking-[0.1em] uppercase mb-4 font-sans">March 17, 2024</p>
-                    <h3 class="text-white font-['Oswald'] font-bold text-[22px] uppercase leading-snug mb-6 w-11/12">Are Multani Mitti Soaps Better Than Regular Soaps?</h3>
+                    <h3 class="text-white font-['Oswald'] font-bold text-[22px] uppercase leading-snug mb-6 w-11/12">The History Behind the Classic Sherwani</h3>
                     <span class="text-white text-[11px] font-bold uppercase tracking-[0.15em] border-b-2 border-white pb-1 w-fit group-hover:text-gray-300 group-hover:border-gray-300 transition-colors">Read More</span>
                 </div>
             </a>
@@ -1039,11 +1045,11 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Article 2 -->
             <a href="#" class="group flex flex-col w-full h-[450px]">
                 <div class="w-full h-[280px] overflow-hidden bg-gray-100">
-                    <img src="//mudaura.com/cdn/shop/files/try2.png?v=1736698907&width=800" alt="Why Oiling Your Hair is Vital for Healthy Hair" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    <img src="{{ asset('assets/products/9493e6f4de86ab31a597f0161766857d.jpg') }}" alt="Why the Nehru Jacket is a Must-Have" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                 </div>
                 <div class="flex-grow bg-white pt-8 pb-4 flex flex-col justify-start">
                     <p class="text-gray-500 text-xs tracking-[0.1em] uppercase mb-3 font-sans">March 17, 2024</p>
-                    <h3 class="text-[#1c1c1c] font-['Oswald'] font-bold text-[18px] uppercase leading-snug mb-5">Why Oiling Your Hair is Vital for Healthy Hair</h3>
+                    <h3 class="text-[#1c1c1c] font-['Oswald'] font-bold text-[18px] uppercase leading-snug mb-5">Why the Nehru Jacket is a Must-Have</h3>
                     <span class="text-[#1c1c1c] text-[11px] font-bold uppercase tracking-[0.15em] mt-auto w-fit border-b-2 border-[#1c1c1c] pb-1 group-hover:text-gray-500 group-hover:border-gray-500 transition-colors">Read More</span>
                 </div>
             </a>
@@ -1051,11 +1057,11 @@ document.addEventListener('DOMContentLoaded', function() {
             <!-- Article 3 -->
             <a href="#" class="group flex flex-col w-full h-[450px]">
                 <div class="w-full h-[280px] overflow-hidden bg-gray-100">
-                    <img src="//mudaura.com/cdn/shop/files/slide_1_b.png?v=1736709080&width=800" alt="Why Our Ancestors Used Toothpowder" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" alt="How to Style Your Kurta for Any Occasion" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
                 </div>
                 <div class="flex-grow bg-white pt-8 pb-4 flex flex-col justify-start">
                     <p class="text-gray-500 text-xs tracking-[0.1em] uppercase mb-3 font-sans">March 14, 2024</p>
-                    <h3 class="text-[#1c1c1c] font-['Oswald'] font-bold text-[18px] uppercase leading-snug mb-5">Why Our Ancestors Used Toothpowder</h3>
+                    <h3 class="text-[#1c1c1c] font-['Oswald'] font-bold text-[18px] uppercase leading-snug mb-5">How to Style Your Kurta for Any Occasion</h3>
                     <span class="text-[#1c1c1c] text-[11px] font-bold uppercase tracking-[0.15em] mt-auto w-fit border-b-2 border-[#1c1c1c] pb-1 group-hover:text-gray-500 group-hover:border-gray-500 transition-colors">Read More</span>
                 </div>
             </a>
@@ -1088,66 +1094,66 @@ document.addEventListener('DOMContentLoaded', function() {
             
             <!-- Original 10 Images -->
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/final_image_2.jpg?v=1760441873&width=800" alt="Essence 1" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" alt="Essence 1" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/Soap_bar_listing_image-10.png?v=1760441873&width=800" alt="Essence 2" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872.jpg') }}" alt="Essence 2" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/5.png?v=1736666226&width=800" alt="Essence 3" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/2cf2091b6b0a327c61d924aba4422361.jpg') }}" alt="Essence 3" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/slide_1_b.png?v=1736709080&width=800" alt="Essence 4" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/4b023aab378b4d93467f6e030b209f70.jpg') }}" alt="Essence 4" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/last.png?v=1760441873&width=800" alt="Essence 5" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/84f7d7c500671af9117168db9a995448.jpg') }}" alt="Essence 5" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/1_lower.png?v=1737634298&width=800" alt="Essence 6" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/8a2bff56c967d7da30a50efef2347793.jpg') }}" alt="Essence 6" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/try2.png?v=1736698907&width=800" alt="Essence 7" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/9493e6f4de86ab31a597f0161766857d.jpg') }}" alt="Essence 7" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/slide_2_b.png?v=1736698907&width=800" alt="Essence 8" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/ad9318da853cddee6d486b0ccc51b8d9.jpg') }}" alt="Essence 8" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/slide_3.png?v=1736698894&width=800" alt="Essence 9" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/b3e594ad1c203f6dfdce2fd3f1be84bd.jpg') }}" alt="Essence 9" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/6.png?v=1736666187&width=800" alt="Essence 10" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/e00ddbab55b8305fe9bff814717c8cdb.jpg') }}" alt="Essence 10" class="w-full h-full object-cover bg-gray-100">
             </div>
 
             <!-- Duplicated 10 Images (For perfect looping) -->
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/final_image_2.jpg?v=1760441873&width=800" alt="Essence 1" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" alt="Essence 1" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/Soap_bar_listing_image-10.png?v=1760441873&width=800" alt="Essence 2" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872.jpg') }}" alt="Essence 2" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/5.png?v=1736666226&width=800" alt="Essence 3" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/2cf2091b6b0a327c61d924aba4422361.jpg') }}" alt="Essence 3" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/slide_1_b.png?v=1736709080&width=800" alt="Essence 4" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/4b023aab378b4d93467f6e030b209f70.jpg') }}" alt="Essence 4" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/last.png?v=1760441873&width=800" alt="Essence 5" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/84f7d7c500671af9117168db9a995448.jpg') }}" alt="Essence 5" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/1_lower.png?v=1737634298&width=800" alt="Essence 6" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/8a2bff56c967d7da30a50efef2347793.jpg') }}" alt="Essence 6" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/try2.png?v=1736698907&width=800" alt="Essence 7" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/9493e6f4de86ab31a597f0161766857d.jpg') }}" alt="Essence 7" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/slide_2_b.png?v=1736698907&width=800" alt="Essence 8" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/ad9318da853cddee6d486b0ccc51b8d9.jpg') }}" alt="Essence 8" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/slide_3.png?v=1736698894&width=800" alt="Essence 9" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/b3e594ad1c203f6dfdce2fd3f1be84bd.jpg') }}" alt="Essence 9" class="w-full h-full object-cover bg-gray-100">
             </div>
             <div class="w-[75vw] sm:w-[40vw] md:w-[23vw] flex-shrink-0 aspect-square pr-4 md:pr-[18px]">
-                <img src="//mudaura.com/cdn/shop/files/6.png?v=1736666187&width=800" alt="Essence 10" class="w-full h-full object-cover bg-gray-100">
+                <img src="{{ asset('assets/products/e00ddbab55b8305fe9bff814717c8cdb.jpg') }}" alt="Essence 10" class="w-full h-full object-cover bg-gray-100">
             </div>
 
         </div>
@@ -1155,8 +1161,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     <!-- Follow Button -->
     <div class="flex justify-center mt-10 md:mt-14">
-        <a href="https://instagram.com/mudaura" target="_blank" class="inline-block border border-gray-300 text-gray-800 text-[11px] font-sans font-semibold tracking-[0.1em] uppercase px-10 py-3.5 hover:bg-black hover:text-white hover:border-black transition-colors">
-            Follow us on Instagram @mudaura
+        <a href="https://instagram.com/ethnicwear" target="_blank" class="inline-block border border-gray-300 text-gray-800 text-[11px] font-sans font-semibold tracking-[0.1em] uppercase px-10 py-3.5 hover:bg-black hover:text-white hover:border-black transition-colors">
+            Follow us on Instagram @ethnicwear
         </a>
     </div>
 </section>
