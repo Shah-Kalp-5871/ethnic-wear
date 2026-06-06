@@ -1,0 +1,40 @@
+name: Deploy to Hostinger
+
+on:
+  push:
+    branches:
+      - main
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to Hostinger via SSH
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.HOSTINGER_HOST }}
+          port: ${{ secrets.HOSTINGER_PORT }}
+          username: ${{ secrets.HOSTINGER_USERNAME }}
+          password: ${{ secrets.HOSTINGER_PASSWORD }}
+          key: ${{ secrets.HOSTINGER_SSH_KEY }}
+          script: |
+            cd ~/domains/emperorsmartsolutions.com/ethnic-wear/
+            git pull origin main
+            
+            echo "📦 Installing composer dependencies"
+            composer install --no-dev --optimize-autoloader  --no-interaction
+            
+            echo "🗄 Running migrations"
+            php artisan optimize:clear
+            php artisan migrate --force
+            
+            echo "🧹 Clearing caches"
+            php artisan config:clear
+            php artisan route:clear
+            php artisan view:clear
+            
+            echo "⚡ Rebuilding caches"
+            php artisan config:cache
+            php artisan route:cache
+            php artisan optimize
