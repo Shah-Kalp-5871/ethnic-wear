@@ -303,7 +303,7 @@
 </li>
 <li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="#">Casual</a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="http://localhost/saahttps://saren.pethemes.com/fashion-3/womenren3/">T-shirts</a>
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="http://localhost/saa#">T-shirts</a>
 </li>
 <li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="#">Classic</a>
 </li>
@@ -558,7 +558,7 @@
 <div class="elementor-element elementor-element-17d01d4a has--bg has--backdrop wd--show--on--top text-stroke-no elementor-widget elementor-widget-petextwrapper" data-id="17d01d4a" data-element_type="widget" data-widget_type="petextwrapper.default">
 <div class="elementor-widget-container">
 <div class="text-wrapper">
-<p                class="text-h6   no-margin   "         > <a href="https://saren.pethemes.com/fashion-3" target="_self" data-barba-preent="false">
+<p                class="text-h6   no-margin   "         > <a href="#" target="_self" data-barba-preent="false">
 <span class="no-underline inner--element customized--word elementor-repeater-item-b8cd2ed" >SAREN</span>
 </a>
 </p>
@@ -628,11 +628,11 @@ data-hide-elements="">
 </li>
 <li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="#">FAQ</a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="http://localhost/saren3/">Privacy Policy</a>
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="#">Privacy Policy</a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="http://localhost/saren3/">Terms &amp; Conditions</a>
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="#">Terms &amp; Conditions</a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="http://localhost/saren3/">Shipping &amp; Returns</a>
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_self" href="#">Shipping &amp; Returns</a>
 </li>
 </ul>
 </div>
@@ -670,22 +670,22 @@ data-hide-elements="">
 <div class="elementor-widget-container">
 <div class="pe--list">
 <ul>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="http://localhost/saren3/homepage/">
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="#">
 </a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="http://localhost/saren3/homepage/">
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="#">
 </a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="http://localhost/saren3/homepage/">
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="#">
 </a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="http://localhost/saren3/homepage/">
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="#">
 </a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="http://localhost/saren3/homepage/">
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="#">
 </a>
 </li>
-<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="http://localhost/saren3/homepage/">
+<li class="pe--styled--object" data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <a target="_blank" href="#">
 </a>
 </li>
 </ul>
@@ -1302,3 +1302,5 @@ width="100px" height="100px" viewBox="0 0 100 100" enable-background="new 0 0 10
 </div>
 </div>
 </header>
+
+
