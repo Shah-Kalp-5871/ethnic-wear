@@ -1306,1031 +1306,658 @@ class="pe-wishlist-btn pe--styled--object " data-add-caption="Add to wishlist." 
 </div>
 </div>
 </div>
-<div class="elementor-element elementor-element-577a636b e-con-full e-flex convert--none scrubbed__false pinned__false wd--always--show container--pointer--events--auto layout--default bg--none no e-con e-parent" data-id="577a636b" data-element_type="container" id="essentials">
-<div class="elementor-element elementor-element-2a6397d1 e-con-full e-flex convert--none scrubbed__false pinned__false wd--always--show container--pointer--events--auto layout--default bg--none no e-con e-child" data-id="2a6397d1" data-element_type="container">
-<div class="elementor-element elementor-element-45a85347 e-con-full e-flex convert--none scrubbed__false pinned__false wd--always--show container--pointer--events--auto layout--default bg--none no e-con e-child" data-id="45a85347" data-element_type="container">
-<div class="elementor-element elementor-element-6dd6a5c6 text-stroke-no wd--always--show elementor-widget elementor-widget-petextwrapper" data-id="6dd6a5c6" data-element_type="widget" data-widget_type="petextwrapper.default">
-<div class="elementor-widget-container">
-<div class="text-wrapper">
-<p                class="text-h6   no-margin   "         > TIMELES ESSENTIALS</p>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-3762eee0 text-stroke-no wd--always--show elementor-widget elementor-widget-petextwrapper" data-id="3762eee0" data-element_type="widget" data-widget_type="petextwrapper.default">
-<div class="elementor-widget-container">
-<div class="text-wrapper">
-<p                class="text-p   no-margin   "         > Wardrobe staples that never go out of style.</p>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-cd16e88 e-con-full e-flex convert--none scrubbed__false pinned__false wd--always--show container--pointer--events--auto layout--default bg--none no e-con e-child" data-id="cd16e88" data-element_type="container">
-<div class="elementor-element elementor-element-25b665ce metas__orientation-row product--behavior--add-to-cart add--to--cart--style--icon add--to--cart--variables--fast actions--visiblity--show-on-image product--cats--yes product--vars--yes image-hover-image product--tags--no product--vars--default eq--height--no actions_pos_no actions__orientation-row sale_badgeno fast--vars--items--has--bg--yes extras__orientation-column term_nameno wd--always--show elementor-widget elementor-widget-pecarousel" data-id="25b665ce" data-element_type="widget" data-settings="{&quot;metas_orientation&quot;:&quot;row&quot;,&quot;behavior&quot;:&quot;add-to-cart&quot;,&quot;add-to-cart-style&quot;:&quot;icon&quot;,&quot;add-to-cart-variables&quot;:&quot;fast&quot;,&quot;actions_visibility&quot;:&quot;show-on-image&quot;,&quot;show_categories&quot;:&quot;yes&quot;,&quot;add-to-cart-vars&quot;:&quot;4&quot;,&quot;single_categories_to_show&quot;:[],&quot;show_variations&quot;:&quot;yes&quot;,&quot;single_attributes_to_show&quot;:[&quot;3&quot;],&quot;product_style&quot;:&quot;classic&quot;,&quot;short__desc&quot;:&quot;hide&quot;,&quot;price&quot;:&quot;show&quot;,&quot;favorite&quot;:&quot;hide&quot;,&quot;compare&quot;:&quot;hide&quot;,&quot;image_hover&quot;:&quot;image&quot;,&quot;show_tags&quot;:&quot;no&quot;,&quot;show_variations_style&quot;:&quot;default&quot;,&quot;variations_swatches&quot;:&quot;no&quot;,&quot;sale_badge&quot;:&quot;yes&quot;,&quot;sale_badge_text&quot;:&quot;SALE&quot;}" data-widget_type="pecarousel.default">
-<div class="elementor-widget-container">
-<div class="pe--carousel cr--product cr--scroll" data-trigger='#essentials'>
-<div class="carousel--wrapper cr--25b665ce cr--drag anim-multiple pinned__anim" >
-<div class="saren--single--product cr--item carousel--item classic product type-product post-3433 status-publish instock product_cat-man product_cat-sweaters product_cat-unisex product_cat-woman product_tag-outlet product_tag-oversize product_tag-street has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="3433">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-3433"
-data-product-id="3433" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap">
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__3433">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="3433"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/b3e594ad1c203f6dfdce2fd3f1be84bd.jpg') }}" class="attachment-large size-large wp-image-8563" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/e00ddbab55b8305fe9bff814717c8cdb.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="3433">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="" data-variation-id="8432">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8412">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8413">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8414">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8415">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8416">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Classic cable knit white pullover</div>
-<div class="product-price">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>59.00</bdi>
-</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Man</span>
-<span>Sweaters</span>
-<span>Unisex</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #ddc8a1" data-variation-id="">Beige</span>
-<span class="term--has--color"  style="--bg: #ffffff" data-variation-id="">White</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-3325 status-publish last instock product_cat-jackets product_cat-woman product_tag-denim product_tag-outlet product_tag-trendy has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="3325">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-3325"
-data-product-id="3325" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap"> <span class="sale--badge">SALE</span>
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__3325">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="3325"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/e8b53858921a1ec2d934f48c6befe20a.jpg') }}" class="attachment-large size-large wp-image-8568" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/image.png') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="3325">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="1" data-variation-id="8344">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8370">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8346">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8347">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8348">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8371">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">High collar zippered white jacket</div>
-<div class="product-price">
-<del aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>99.00</bdi>
-</span>
-</del> <span class="screen-reader-text">Original price was: &pound;99.00.</span>
-<ins aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>79.00</bdi>
-</span>
-</ins>
-<span class="screen-reader-text">Current price is: &pound;79.00.</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Jackets</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #ffffff" data-variation-id="">White</span>
-<span class="term--has--color"  style="--bg: #eded95" data-variation-id="">Yellow</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-3244 status-publish first instock product_cat-man product_cat-shorts product_cat-unisex product_cat-woman product_tag-denim product_tag-outlet product_tag-relaxed product_tag-sale has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="3244">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-3244"
-data-product-id="3244" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap"> <span class="sale--badge">SALE</span>
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__3244">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="3244"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" class="attachment-large size-large wp-image-8573" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872 (1).jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="3244">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="" data-variation-id="8310">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8311">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8251">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8252">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8253">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8254">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Relaxed fit summer orange shorts</div>
-<div class="product-price">
-<del aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>89.00</bdi>
-</span>
-</del> <span class="screen-reader-text">Original price was: &pound;89.00.</span>
-<ins aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>69.00</bdi>
-</span>
-</ins>
-<span class="screen-reader-text">Current price is: &pound;69.00.</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Man</span>
-<span>Shorts</span>
-<span>Unisex</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #ddb06c" data-variation-id="">Orange</span>
-<span class="term--has--color"  style="--bg: #dd8d8d" data-variation-id="">Pink</span>
-<span class="term--has--color"  style="--bg: #ad78e2" data-variation-id="">Purple</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-3092 status-publish instock product_cat-man product_cat-t-shirts product_cat-unisex product_cat-woman product_tag-denim product_tag-outlet product_tag-regular product_tag-relaxed has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="3092">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-3092"
-data-product-id="3092" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap">
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__3092">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="3092"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872.jpg') }}" class="attachment-large size-large wp-image-8574" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/2cf2091b6b0a327c61d924aba4422361.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="3092">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="" data-variation-id="8241">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8229">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8230">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8231">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8243">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8242">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Classic short sleeve pink t-shirt</div>
-<div class="product-price">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>29.00</bdi>
-</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Man</span>
-<span>T-Shirts</span>
-<span>Unisex</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #ddc8a1" data-variation-id="">Beige</span>
-<span class="term--has--color"  style="--bg: #a5d682" data-variation-id="">Green</span>
-<span class="term--has--color"  style="--bg: #dd8d8d" data-variation-id="">Pink</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-3029 status-publish instock product_cat-dresses product_cat-woman product_tag-classic product_tag-denim product_tag-outlet product_tag-relaxed has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="3029">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-3029"
-data-product-id="3029" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap">
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__3029">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="3029"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/4b023aab378b4d93467f6e030b209f70.jpg') }}" class="attachment-large size-large wp-image-8575" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/84f7d7c500671af9117168db9a995448.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="3029">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="1" data-variation-id="8149">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8150">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8151">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8174">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8153">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8173">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Lightweight midi orange dress</div>
-<div class="product-price">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>99.00</bdi>
-</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Dresses</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #ddb06c" data-variation-id="">Orange</span>
-<span class="term--has--color"  style="--bg: #eded95" data-variation-id="">Yellow</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-2967 status-publish last instock product_cat-man product_cat-sweaters product_cat-unisex product_cat-woman product_tag-denim product_tag-new product_tag-regular product_tag-relaxed has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="2967">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-2967"
-data-product-id="2967" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap"> <span class="sale--badge">SALE</span>
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__2967">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="2967"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/8a2bff56c967d7da30a50efef2347793.jpg') }}" class="attachment-large size-large wp-image-8576" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/9493e6f4de86ab31a597f0161766857d.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="2967">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="" data-variation-id="8139">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8113">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8114">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8115">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8116">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8140">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Relaxed fit pullover yellow sweatshirt</div>
-<div class="product-price">
-<del aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>89.00</bdi>
-</span>
-</del> <span class="screen-reader-text">Original price was: &pound;89.00.</span>
-<ins aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>79.00</bdi>
-</span>
-</ins>
-<span class="screen-reader-text">Current price is: &pound;79.00.</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Man</span>
-<span>Sweaters</span>
-<span>Unisex</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #a5d682" data-variation-id="">Green</span>
-<span class="term--has--color"  style="--bg: #bcbcbc" data-variation-id="">Grey</span>
-<span class="term--has--color"  style="--bg: #eded95" data-variation-id="">Yellow</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-2791 status-publish first instock product_cat-dresses product_cat-woman product_tag-new product_tag-regular product_tag-trendy has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="2791">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-2791"
-data-product-id="2791" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap">
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__2791">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="2791"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/ad9318da853cddee6d486b0ccc51b8d9.jpg') }}" class="attachment-large size-large wp-image-8581" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/b3e594ad1c203f6dfdce2fd3f1be84bd.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="2791">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="1" data-variation-id="8055">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8056">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8074">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8058">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="8075">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="8060">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Elastic waist mini green dress</div>
-<div class="product-price">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>129.00</bdi>
-</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Dresses</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #000000" data-variation-id="">Black</span>
-<span class="term--has--color"  style="--bg: #a5d682" data-variation-id="">Green</span>
-<span class="term--has--color"  style="--bg: #bcbcbc" data-variation-id="">Grey</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-2707 status-publish instock product_cat-skirts product_cat-woman product_tag-denim product_tag-outlet product_tag-regular product_tag-relaxed has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="2707">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-2707"
-data-product-id="2707" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap">
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__2707">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="2707"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/e00ddbab55b8305fe9bff814717c8cdb.jpg') }}" class="attachment-large size-large wp-image-8583" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/e8b53858921a1ec2d934f48c6befe20a.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="2707">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="1" data-variation-id="7953">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7954">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7955">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="7978">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7957">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="7977">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Flowy midi pleated blue skirt</div>
-<div class="product-price">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>89.00</bdi>
-</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Skirts</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #5b90bf" data-variation-id="">Blue</span>
-<span class="term--has--color"  style="--bg: #ffffff" data-variation-id="">White</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-2579 status-publish instock product_cat-cardigan product_cat-woman product_tag-casual product_tag-denim product_tag-new product_tag-outlet product_tag-regular has-post-thumbnail taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="2579">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-2579"
-data-product-id="2579" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap">
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__2579">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="2579"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/image.png') }}" class="attachment-large size-large wp-image-8585" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/07d253be6b103a6d5a4aa00970fb2442.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="2579">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="1" data-variation-id="7898">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7899">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7900">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7901">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="7941">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="7940">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Soft touch casual white cardigan</div>
-<div class="product-price">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>59.00</bdi>
-</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Cardigan</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #a5d682" data-variation-id="">Green</span>
-<span class="term--has--color"  style="--bg: #bcbcbc" data-variation-id="">Grey</span>
-<span class="term--has--color"  style="--bg: #ffffff" data-variation-id="">White</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--single--product cr--item carousel--item classic product type-product post-2543 status-publish last instock product_cat-cardigan product_cat-woman product_tag-new product_tag-oversize product_tag-sale has-post-thumbnail sale taxable shipping-taxable purchasable product-type-variable has-default-attributes" data-product-id="2543">
-<div class="pop--behavior--center quick-add-to-cart-popup quick_pop_id-2543"
-data-product-id="2543" style="display: none"> <span class="pop--overlay">
-</span>
-<div class="pe--styled--popup quick-atc-popup">
-<span class="pop--close">
-<svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"> <path
-d="m291-240-51-51 189-189-189-189 51-51 189 189 189-189 51 51-189 189 189 189-51 51-189-189-189 189Z" /> </svg>
-</span>
-<div class="saren--popup--cart--product">
-<div class="saren--popup--cart-product-image"> <img decoding="async" class="spcp--img" src="">
-</div>
-<div class="saren--popup--cart-product-meta">
-<div class="saren--popup--cart-product-cont">
-<h6 class="spcp--price">
-</h6>
-<h4 class="spcp--title">
-</h4>
-<p class="spcp--desc no-margin">
-</p>
-</div>
-<div class="saren--popup--cart-product-form">
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="saren--product--wrap"> <span class="sale--badge">SALE</span>
-<div class="saren--product--image--wrap">
-<div class="saren--product--image product__image__2543">
-<a data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon="" class="product--barba--trigger" data-id="2543"
-href="{{ route('new.product.show') }}"> <img loading="lazy" decoding="async" class="product-image-front" width="640" height="821" src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872 (1).jpg') }}" class="attachment-large size-large wp-image-8586" alt="" srcset="" sizes="(max-width: 640px) 100vw, 640px" /> </a>
-</div>
-<div class="product--image--hover">
-<img fetchpriority="high" decoding="async" width="640" height="821" src="{{ asset('assets/products/2183e5c0fc528398d9f56d6d1a870872.jpg') }}" class="attachment-medium_large size-medium_large" alt="" loading="eager" fetchpriority="high" srcset="" sizes="(max-width: 640px) 100vw, 640px" />
-</div>
-<div class="saren--fast--add">
-<div class="saren--fast--add--vars" data-product-id="2543">
-<ul class="single--product--vars attr--dt--variation_labels">
-<li data-stock="1" data-variation-id="7826">L <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7827">M <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="1" data-variation-id="7828">S <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="7876">XL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="7875">XS <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-<li data-stock="" data-variation-id="7874">XXL <svg class="cart-loading" width="1em" height="1em"> <use xlink:href="#cart-loading">
-</use> </svg> <svg class="cart-done" width="1em" height="1em"> <use xlink:href="#cart-done">
-</use> </svg>
-</li>
-</ul>
-</div>
-</div>
-<div class="saren--product--actions">
-</div>
-</div>
-<div class="saren--product--meta">
-<div class="saren--product--main">
-<div class="product-name woocommerce-loop-product__title">Classic fit buttoned green cardigan</div>
-<div class="product-price">
-<del aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>99.00</bdi>
-</span>
-</del> <span class="screen-reader-text">Original price was: &pound;99.00.</span>
-<ins aria-hidden="true">
-<span class="woocommerce-Price-amount amount">
-<bdi>
-<span class="woocommerce-Price-currencySymbol">&pound;</span>89.00</bdi>
-</span>
-</ins>
-<span class="screen-reader-text">Current price is: &pound;89.00.</span>
-</div>
-</div>
-<div class="saren--product--extras">
-<div class="saren--product--cats">
-<span>Cardigan</span>
-<span>Woman</span>
-</div>
-<div class="saren--single--product--attributes ">
-<div class="single--product--attributes attr--dt--variation_color_only"> <span class="term--has--color"  style="--bg: #5b90bf" data-variation-id="">Blue</span>
-<span class="term--has--color"  style="--bg: #a5d682" data-variation-id="">Green</span>
-<span class="term--has--color"  style="--bg: #ffffff" data-variation-id="">White</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="elementor-element elementor-element-713058e7 e-con-full e-flex convert--none scrubbed__false pinned__false wd--always--show container--pointer--events--auto layout--default bg--none no e-con e-child" data-id="713058e7" data-element_type="container">
-<div class="elementor-element elementor-element-6571ba5e scrubbed__false pinned__false wd--always--show elementor-widget elementor-widget-pebutton" data-id="6571ba5e" data-element_type="widget" data-widget_type="pebutton.default">
-<div class="elementor-widget-container">
-<div class="pe--button pb--background pb--icon icon__left pb--small link"  >
-<div class="pe--button--wrapper"> <a href="#" rel="nofollow"data-cursor="true" data-cursor-type="default" data-cursor-text="" data-cursor-icon=""> <span class="pb__main">
-<i aria-hidden="true" class="material-icons md-arrow_forward" data-md-icon="arrow_forward">
-</i>Explore the collection<span class="pb__hover">
-<i aria-hidden="true" class="material-icons md-arrow_forward" data-md-icon="arrow_forward">
-</i>Explore the collection</span> </span>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
+{{-- ============================================================ --}}
+{{-- VIDEO PRODUCT CAROUSEL — replaces TIMELES ESSENTIALS block  --}}
+{{-- ============================================================ --}}
+
+<style>
+/* ── Video Carousel Section ─────────────────────────────────── */
+#style-in-motion {
+    padding: 80px 0;
+    background: #f1f1f1;
+    overflow: hidden;
+    position: relative;
+}
+
+#style-in-motion .sim-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 40px;
+    text-align: center;
+}
+
+/* Header */
+#style-in-motion .sim-header {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#style-in-motion .sim-titles {
+    text-align: center;
+    width: 100%;
+}
+
+#style-in-motion .sim-titles .sim-label {
+    font-size: 11px;
+    letter-spacing: 0.25em;
+    color: #666;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-family: Inter, sans-serif;
+}
+
+#style-in-motion .sim-titles .sim-heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: #0f0f0f;
+    margin: 0;
+    line-height: 1.1;
+    font-family: "Inter Tight", Inter, sans-serif;
+    letter-spacing: -0.02em;
+}
+
+#style-in-motion .sim-heading span {
+    color: #0f0f0f;
+}
+
+#style-in-motion .sim-nav {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0;
+    justify-content: center;
+    width: 100%;
+    margin-top: 8px;
+}
+
+#style-in-motion .sim-nav-btn {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 1px solid rgba(0,0,0,0.15);
+    background: rgba(0,0,0,0.05);
+    color: #0f0f0f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+#style-in-motion .sim-nav-btn:hover {
+    background: #0f0f0f;
+    border-color: #0f0f0f;
+    color: #f1f1f1;
+    transform: scale(1.08);
+}
+
+/* Carousel track */
+#style-in-motion .sim-track-wrap {
+    position: relative;
+}
+
+#style-in-motion .sim-track {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-bottom: 4px;
+    scroll-snap-type: x mandatory;
+    justify-content: center;
+}
+
+#style-in-motion .sim-track::-webkit-scrollbar {
+    display: none;
+}
+
+/* Video Card */
+#style-in-motion .sim-card {
+    flex: 0 0 240px;
+    width: 240px;
+    border-radius: 18px;
+    overflow: hidden;
+    position: relative;
+    background: #e0e0e0;
+    scroll-snap-align: start;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+
+#style-in-motion .sim-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 40px rgba(0,0,0,0.15);
+}
+
+#style-in-motion .sim-card-video-wrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 9/16;
+    background: #1a1a1a;
+    overflow: hidden;
+}
+
+#style-in-motion .sim-card-video-wrap video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Gradient overlay on video */
+#style-in-motion .sim-card-video-wrap::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(0,0,0,0.0) 0%,
+        rgba(0,0,0,0.0) 45%,
+        rgba(0,0,0,0.85) 100%
+    );
+    pointer-events: none;
+}
+
+/* Views badge (top-left) */
+#style-in-motion .sim-views {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(8px);
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 11px;
+    color: #0f0f0f;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+}
+
+#style-in-motion .sim-views svg {
+    width: 11px;
+    height: 11px;
+    fill: #0f0f0f;
+}
+
+/* Action buttons (top-right) */
+#style-in-motion .sim-actions {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#style-in-motion .sim-action-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.75);
+    backdrop-filter: blur(8px);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    color: #0f0f0f;
+    padding: 0;
+}
+
+#style-in-motion .sim-action-btn:hover {
+    background: rgba(15, 15, 15, 0.85);
+    color: #f1f1f1;
+    transform: scale(1.1);
+}
+
+#style-in-motion .sim-action-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+#style-in-motion .sim-action-btn.liked svg {
+    fill: #0f0f0f;
+    stroke: #0f0f0f;
+}
+
+/* Product info bar (bottom overlay on video) */
+#style-in-motion .sim-card-info-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    padding: 16px 14px 14px;
+}
+
+#style-in-motion .sim-product-label {
+    font-size: 10px;
+    color: rgba(255,255,255,0.6);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 4px;
+    font-family: Inter, sans-serif;
+}
+
+#style-in-motion .sim-product-name {
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 6px;
+    line-height: 1.3;
+    font-family: "Inter Tight", Inter, sans-serif;
+}
+
+/* Pricing row */
+#style-in-motion .sim-price-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+#style-in-motion .sim-price-new {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    font-family: "Inter Tight", Inter, sans-serif;
+}
+
+#style-in-motion .sim-price-old {
+    font-size: 11px;
+    color: rgba(255,255,255,0.4);
+    text-decoration: line-through;
+    font-family: Inter, sans-serif;
+}
+
+#style-in-motion .sim-discount-badge {
+    background: #0f0f0f;
+    color: #f1f1f1;
+    font-size: 9px;
+    font-weight: 700;
+    padding: 2px 6px;
+    border-radius: 4px;
+    letter-spacing: 0.05em;
+    font-family: Inter, sans-serif;
+}
+
+/* Buy Now button */
+#style-in-motion .sim-buy-btn {
+    display: block;
+    width: 100%;
+    background: #0f0f0f;
+    color: #f1f1f1;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    padding: 9px 0;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-family: Inter, sans-serif;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+}
+
+#style-in-motion .sim-buy-btn:hover {
+    background: #333;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.25);
+    transform: translateY(-1px);
+    color: #f1f1f1;
+}
+
+/* Scroll progress bar */
+#style-in-motion .sim-progress-wrap {
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+#style-in-motion .sim-progress-bar {
+    width: 120px;
+    height: 2px;
+    background: rgba(0,0,0,0.12);
+    border-radius: 99px;
+    position: relative;
+    overflow: hidden;
+}
+
+#style-in-motion .sim-progress-fill {
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    background: #0f0f0f;
+    border-radius: 99px;
+    width: 25%;
+    transition: left 0.15s ease;
+}
+
+#style-in-motion .sim-progress-label {
+    font-size: 11px;
+    color: rgba(0,0,0,0.4);
+    font-family: Inter, sans-serif;
+    letter-spacing: 0.1em;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    #style-in-motion { padding: 56px 0; }
+    #style-in-motion .sim-inner { padding: 0 20px; }
+    #style-in-motion .sim-heading { font-size: 30px; }
+    #style-in-motion .sim-card { flex: 0 0 200px; width: 200px; }
+    #style-in-motion .sim-nav { display: none; }
+}
+</style>
+
+<section id="style-in-motion">
+    <div class="sim-inner">
+        <!-- Section header -->
+        <div class="sim-header">
+            <div class="sim-titles">
+                <p class="sim-label">Trending Looks</p>
+                <h2 class="sim-heading">Style In <span>Motion</span></h2>
+            </div>
+            <div class="sim-nav">
+                <button class="sim-nav-btn" id="sim-prev" aria-label="Previous">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                        <polyline points="15 18 9 12 15 6"/>
+                    </svg>
+                </button>
+                <button class="sim-nav-btn" id="sim-next" aria-label="Next">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                        <polyline points="9 18 15 12 9 6"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Carousel -->
+        <div class="sim-track-wrap">
+            <div class="sim-track" id="sim-track">
+
+                <!-- Card 1 -->
+                <div class="sim-card" id="sim-card-1">
+                    <div class="sim-card-video-wrap">
+                        <video preload="metadata" autoplay loop muted playsinline>
+                            <source src="{{ asset('assets/videos/0491eb56-c241-4d92-b015-f2aca854ddeb.mp4') }}" type="video/mp4">
+                        </video>
+                        <!-- Views -->
+                        <div class="sim-views">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                            6.3K
+                        </div>
+                        <!-- Actions -->
+                        <div class="sim-actions">
+                            <button class="sim-action-btn sim-heart-btn" aria-label="Like" data-liked="false">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </button>
+                            <button class="sim-action-btn sim-share-btn" aria-label="Share">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- Bottom overlay info -->
+                        <div class="sim-card-info-overlay">
+                            <p class="sim-product-label">New Arrivals</p>
+                            <p class="sim-product-name">Classic Cable Knit White Pullover</p>
+                            <div class="sim-price-row">
+                                <span class="sim-price-new">₹479</span>
+                                <span class="sim-price-old">₹599</span>
+                                <span class="sim-discount-badge">-20%</span>
+                            </div>
+                            <a href="{{ route('new.product.show') }}" class="sim-buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="sim-card" id="sim-card-2">
+                    <div class="sim-card-video-wrap">
+                        <video preload="metadata" autoplay loop muted playsinline>
+                            <source src="{{ asset('assets/videos/3bda2126-6388-482d-8112-ea8690e62fd6.mp4') }}" type="video/mp4">
+                        </video>
+                        <div class="sim-views">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                            14.8K
+                        </div>
+                        <div class="sim-actions">
+                            <button class="sim-action-btn sim-heart-btn" aria-label="Like" data-liked="false">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </button>
+                            <button class="sim-action-btn sim-share-btn" aria-label="Share">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="sim-card-info-overlay">
+                            <p class="sim-product-label">Kurta Edit</p>
+                            <p class="sim-product-name">Zip-Up Casual Yellow Bomber</p>
+                            <div class="sim-price-row">
+                                <span class="sim-price-new">₹399</span>
+                                <span class="sim-price-old">₹499</span>
+                                <span class="sim-discount-badge">-20%</span>
+                            </div>
+                            <a href="{{ route('new.product.show') }}" class="sim-buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="sim-card" id="sim-card-3">
+                    <div class="sim-card-video-wrap">
+                        <video preload="metadata" autoplay loop muted playsinline>
+                            <source src="{{ asset('assets/videos/bc0992d6-4bb0-4156-a36b-6aa25c024a11.mp4') }}" type="video/mp4">
+                        </video>
+                        <div class="sim-views">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                            9.1K
+                        </div>
+                        <div class="sim-actions">
+                            <button class="sim-action-btn sim-heart-btn" aria-label="Like" data-liked="false">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </button>
+                            <button class="sim-action-btn sim-share-btn" aria-label="Share">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="sim-card-info-overlay">
+                            <p class="sim-product-label">Sherwani Season</p>
+                            <p class="sim-product-name">Soft Touch Casual Green Jacket</p>
+                            <div class="sim-price-row">
+                                <span class="sim-price-new">₹299</span>
+                                <span class="sim-price-old">₹399</span>
+                                <span class="sim-discount-badge">-25%</span>
+                            </div>
+                            <a href="{{ route('new.product.show') }}" class="sim-buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="sim-card" id="sim-card-4">
+                    <div class="sim-card-video-wrap">
+                        <video preload="metadata" autoplay loop muted playsinline>
+                            <source src="{{ asset('assets/videos/ecddff0e-8b5c-46bd-9425-919260d80c08.mp4') }}" type="video/mp4">
+                        </video>
+                        <div class="sim-views">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                            22.5K
+                        </div>
+                        <div class="sim-actions">
+                            <button class="sim-action-btn sim-heart-btn" aria-label="Like" data-liked="false">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </button>
+                            <button class="sim-action-btn sim-share-btn" aria-label="Share">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="sim-card-info-overlay">
+                            <p class="sim-product-label">Festival Looks</p>
+                            <p class="sim-product-name">Relaxed Fit Summer Orange Shorts</p>
+                            <div class="sim-price-row">
+                                <span class="sim-price-new">₹69</span>
+                                <span class="sim-price-old">₹89</span>
+                                <span class="sim-discount-badge">-22%</span>
+                            </div>
+                            <a href="{{ route('new.product.show') }}" class="sim-buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 5 — loops back to first video -->
+                <div class="sim-card" id="sim-card-5">
+                    <div class="sim-card-video-wrap">
+                        <video preload="metadata" autoplay loop muted playsinline>
+                            <source src="{{ asset('assets/videos/3bda2126-6388-482d-8112-ea8690e62fd6 (1).mp4') }}" type="video/mp4">
+                        </video>
+                        <div class="sim-views">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+                            4.7K
+                        </div>
+                        <div class="sim-actions">
+                            <button class="sim-action-btn sim-heart-btn" aria-label="Like" data-liked="false">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+                                </svg>
+                            </button>
+                            <button class="sim-action-btn sim-share-btn" aria-label="Share">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+                                    <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="sim-card-info-overlay">
+                            <p class="sim-product-label">Street Style</p>
+                            <p class="sim-product-name">Relaxed Fit Pullover Yellow Sweatshirt</p>
+                            <div class="sim-price-row">
+                                <span class="sim-price-new">₹79</span>
+                                <span class="sim-price-old">₹89</span>
+                                <span class="sim-discount-badge">-11%</span>
+                            </div>
+                            <a href="{{ route('new.product.show') }}" class="sim-buy-btn">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.sim-track -->
+        </div><!-- /.sim-track-wrap -->
+
+        <!-- Scroll progress indicator -->
+        <div class="sim-progress-wrap">
+            <span class="sim-progress-label">SCROLL</span>
+            <div class="sim-progress-bar">
+                <div class="sim-progress-fill" id="sim-progress-fill"></div>
+            </div>
+            <span class="sim-progress-label">EXPLORE</span>
+        </div>
+
+    </div><!-- /.sim-inner -->
+</section>
+
+<script>
+(function () {
+    // ── Carousel navigation ──────────────────────────────────────
+    var track = document.getElementById('sim-track');
+    var prevBtn = document.getElementById('sim-prev');
+    var nextBtn = document.getElementById('sim-next');
+    var fill   = document.getElementById('sim-progress-fill');
+
+    var STEP = 256; // ~card width + gap
+
+    if (prevBtn && track) {
+        prevBtn.addEventListener('click', function () {
+            track.scrollBy({ left: -STEP, behavior: 'smooth' });
+        });
+    }
+    if (nextBtn && track) {
+        nextBtn.addEventListener('click', function () {
+            track.scrollBy({ left: STEP, behavior: 'smooth' });
+        });
+    }
+
+    // Update progress fill on scroll
+    if (track && fill) {
+        function updateFill() {
+            var max = track.scrollWidth - track.clientWidth;
+            if (max <= 0) { fill.style.left = '0%'; fill.style.width = '100%'; return; }
+            var pct = track.scrollLeft / max;
+            var thumbW = 25;
+            fill.style.width  = thumbW + '%';
+            fill.style.left   = (pct * (100 - thumbW)) + '%';
+        }
+        track.addEventListener('scroll', updateFill, { passive: true });
+        updateFill();
+    }
+
+    // ── Heart toggle ─────────────────────────────────────────────
+    document.querySelectorAll('#style-in-motion .sim-heart-btn').forEach(function (btn) {
+        btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            var liked = this.dataset.liked === 'true';
+            liked = !liked;
+            this.dataset.liked = liked;
+            var svg = this.querySelector('svg');
+            if (liked) {
+                svg.style.fill = '#0f0f0f';
+                svg.style.stroke = '#0f0f0f';
+                // pulse animation
+                this.style.transform = 'scale(1.3)';
+                setTimeout(function () { btn.style.transform = ''; }, 200);
+            } else {
+                svg.style.fill = 'none';
+                svg.style.stroke = 'currentColor';
+            }
+        });
+    });
+
+    // ── Click-to-toggle video playback ──────────────────────────
+    document.querySelectorAll('#style-in-motion .sim-card-video-wrap').forEach(function (wrap) {
+        wrap.addEventListener('click', function () {
+            var video = this.querySelector('video');
+            if (!video) return;
+            if (video.paused) { video.play(); }
+            else              { video.pause(); }
+        });
+    });
+})();
+</script>
+
 <div class="elementor-element elementor-element-28bd3c8e e-flex e-con-boxed convert--none scrubbed__false pinned__false wd--always--show container--pointer--events--auto layout--default bg--none no e-con e-parent" data-id="28bd3c8e" data-element_type="container">
 <div class="e-con-inner">
 <div class="elementor-element elementor-element-6138788c elementor-widget__width-inherit text-stroke-no wd--always--show elementor-widget elementor-widget-petextwrapper" data-id="6138788c" data-element_type="widget" data-widget_type="petextwrapper.default">
